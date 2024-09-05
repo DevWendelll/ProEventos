@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace ProEventos.API.Migrations
 {
-    public partial class InitialCreate : Migration
+    public partial class Nova : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

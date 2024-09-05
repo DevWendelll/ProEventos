@@ -12,8 +12,8 @@ using ProEventos.API.Data;
 namespace ProEventos.API.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20240813235137_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20240905011803_Nova")]
+    partial class Nova
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

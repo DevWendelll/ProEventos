@@ -6,7 +6,7 @@ namespace ProEventos.API.Controllers
 
     [ApiController]
     [Route("[controller]")]
-    public class EventoContoller : ControllerBase
+    public class EventoController : ControllerBase
     {
         public IEnumerable<Evento> _evento = new Evento[]
             {
@@ -18,7 +18,7 @@ namespace ProEventos.API.Controllers
                 Lote = "1 Lote",
                 QtdPessoas = 20,
                 DataEvento = DateTime.Now,
-                ImagemURL = "foto.url"
+                ImagemURL = ""
                 },
 
                 new Evento()
@@ -29,7 +29,7 @@ namespace ProEventos.API.Controllers
                 Lote = "2 Lote",
                 QtdPessoas = 50,
                 DataEvento = DateTime.Now,
-                ImagemURL = "foto1.url"
+                ImagemURL = ""
                 }
             };
 
